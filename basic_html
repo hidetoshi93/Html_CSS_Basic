@@ -1,0 +1,42 @@
+<!-- Các thẻ thông dụng hay dùng trong html
+1. h1-h6 (heading)
+    Cỡ chữ giảm dần theo thứ tự h1 đến h6.
+    Trong 1 file html thường chỉ có 1 tiêu đề h1
+2. p (paragraph)
+3. img
+    <img src = """", alt = """"></img>
+    src(source): link đường dẫn đến file ảnh
+    alt: dùng để xử lý khi ảnh bị lỗi sẽ hiển thị ra nội dung gì
+4. a (anchor)
+    <a href"link"> Dòng hiển thị trên trang web </a>
+    Dùng để đính kèm đường link dẫn sang 1 trang khác 
+5. ul, li (unordered list, list)
+    Dùng để hiển thị danh sách. 1 danh sách là 1 ul. 1 dòng trong danh sách là 1 li.
+    Cách viết nhanh: li * số dòng
+    <ul>
+        <li></li>
+    </ul>
+6. table
+    Mỗi bảng là 1 table, trong table sẽ có thẻ thead,tbody
+    <table>
+        <thead>
+            <th> Tiêu đề của các cột trong bảng </th>
+        </thead>
+
+        <tbody>
+            <tr> Từng dòng trong bảng (table row)
+                <td> Nội dung của từng dòng ứng với từng cột th </td>
+            </tr>
+        </tbody>
+    </table>
+7. input
+    <input type = "text"></input>
+    Có 3 loại chính như sau:
+    1. <input type = "text"></input>
+    2. <input type = "radio"></input>: Nhiều cái chỉ chọn được 1 cái
+    3. <input type = "checkbox"></input>: Có thể chọn nhiều
+   
+8. button
+9. div
+    là đơn vị lớn nhất dùng để chia trang. Trong 1 div sẽ bao gồm các thẻ đã học ở trên
+-->
