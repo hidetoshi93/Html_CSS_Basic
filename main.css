@@ -1,0 +1,15 @@
+h1 {
+    font-size: 40px;
+}
+
+#first-list{
+    color: burlywood;
+}
+
+.second-list{
+    color: aqua;
+}
+
+.second-list1.second-list2{
+    color: azure;
+}
