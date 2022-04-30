@@ -1,15 +1,18 @@
+/* Global variable */
+:root {
+    --text-color: green;
+}
+
 h1 {
-    font-size: 40px;
+    color: var(--text-color);
 }
 
-#first-list{
-    color: burlywood;
+h2 {
+    color: var(--text-color);
 }
 
-.second-list{
-    color: aqua;
-}
-
-.second-list1.second-list2{
-    color: azure;
+li {
+    /* Local variable */
+    --text-color: yellow;
+    color:var(--text-color)
 }
