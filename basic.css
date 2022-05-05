@@ -14,7 +14,8 @@
     Inherited:
         html {
             color:
-        } */
+        } 
+*/
 
 
 /* CSS units - Đơn vị trong CSS
@@ -26,10 +27,41 @@
         ・inch
         ・pc
 2. Relative units: đơn vị tương đối
-        ・%: tính theo thẻ mà chứa nó
-        ・rem: tính theo thẻ html
+        ・%: tính theo thẻ mà chứa nó (nên dùng cho height, width)
+        ・rem: phụ thuộc vào thuộc tính cùng tên có trong thẻ html (nên sử dụng cho font-size)
         ・em: tính theo thẻ gần nhất có cùng attribute (ít dùng vì sẽ khó kiểm soát)
         ・vw (view-width): tính theo kích thước của trình duyệt
         ・vh (view-height): tính theo kích thước của trình duyệt
         
  */
+ 
+/* CSS variable
+:root {
+    --text-color: green;
+}
+
+h1 {
+    color: var(--text-color)
+}
+
+h2 {
+    color: var(--text-color)
+}
+*/
+
+/* CSS pseudo-class: lớp giả trong CSS
+    :root　→　tác dụng lên toàn bộ thẻ bên trong html
+    :hover　→ kích hoạt khi di chuột vào
+    :active　→ kích hoạt khi click chuột vào
+    :first-child　→ tác động vào thẻ con đầu tiên
+    :last-child　→ tác động vào thẻ con cuối cùng
+ */
+
+/* CSS pseudo-elements: phần tử giả trong CSS
+    ::before
+    ::after
+    ::first-letter
+    ::first-line
+    ::selection
+*/
+
