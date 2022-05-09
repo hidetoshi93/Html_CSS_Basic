@@ -1,0 +1,16 @@
+/* Menu
+
+1. background-image
+    background-image: 
+        ・外部写真挿入　→　url()
+        ・CSSの色　→　linear-gradient(角度、色番号、色番号)
+2. background-size: デフォルトは横サイズ
+3. background-repeat: 写真の繰り返すを設定
+        ・coutain: chọn sao cho bức ảnh không bị che khuất phần nào → bị hở ra khoảng trắng
+        ・cover: lấy chiều dài hơn để làm 100% bức ảnh kể cả bị che khuất cũng lấy → không bị hở ra khoảng trắng
+4. background-origin: thiết lập chèn bức ảnh vào vị trí nào: content, padding, border
+
+
+追加： rgba(赤, 緑, 黒, 透明度)
+
+*/
