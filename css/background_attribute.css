@@ -9,7 +9,7 @@
         ・coutain: chọn sao cho bức ảnh không bị che khuất phần nào → bị hở ra khoảng trắng
         ・cover: lấy chiều dài hơn để làm 100% bức ảnh kể cả bị che khuất cũng lấy → không bị hở ra khoảng trắng
 4. background-origin: thiết lập chèn bức ảnh vào vị trí nào: content, padding, border
-
+5. background-possition: thiết lập vị trí để chèn ảnh
 
 追加： rgba(赤, 緑, 黒, 透明度)
 
