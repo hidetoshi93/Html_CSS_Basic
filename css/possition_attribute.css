@@ -1,7 +1,10 @@
 /* 
-1.
-2.
-3.
-4.
+1. position relative: vị trí tương đối -> lấy chính mình làm vị trí tương đối, không phụ thuộc vào thằng nào khác
+    top, bottom, left, right
+2. position absolute: vị trí tuyệt đối -> lấy cái lớp cha nào gần nó nhất có thuộc tính position để làm gốc tọa độ
+    khi element phụ thuộc vào đối tượng khác thì sẽ dùng
+3. position fixed -> có tác dụng gắn cố định vào 1 vị trí nhất định
+    khi element phụ thuộc vào cửa sổ trình duyệt thì sẽ dùng
+4. position sticky: bám dính -> ít dùng
 
 */
