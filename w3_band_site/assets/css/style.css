@@ -18,6 +18,11 @@
     4. Hình dáng (kiểu chữ, hình tròn, vuông...)
 */
 
+/* khi dùng float thì thẻ cha không bao lấy các thẻ con nên cần clear */
+.clear{
+    clear:both;
+}
+
 #main {
     
 }
@@ -114,8 +119,9 @@
 
 #header .search-icon {
     color: #fff;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 46px;
+    font-weight: 900;
 }
 
 #slider {
@@ -145,9 +151,6 @@
     margin-top: 25px;
 }
 
-#content {
-
-}
 
 #content .content-section {
     width: 800px;
@@ -185,6 +188,33 @@
 
     /* khoảng cách giữa các dòng, tiếng anh: 1.4, tiếng việt 1.6 */
     line-height: 1.4;
+}
+
+#content .member-list {
+    margin-top: 48px;
+    
+}
+
+#content .member-item {
+    float: left;
+    width: calc(100% / 3);
+    text-align: center;
+}
+
+#content .member-name {
+    margin: 15px 0;
+    font-size: 15px;
+}
+
+#content .member-img {
+    width: 154px;
+    border-radius: 4px;
+
+}
+
+#content .tour-section {
+    background-color: #000;
+    color: #fff;
 }
 
 #footer {
